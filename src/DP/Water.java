@@ -14,7 +14,7 @@ public class Water {
         int[] left =new int[arr.length];
         //left 数组中保存每个元素左边的最大值，left[i]，表示数组中第i个元素的左边最大值。
         int[] right =new int[arr.length];
-        //right数组中保存每个元素左边的最大值，right[i]，表示数组中第i个元素的右边最大值。
+        //right数组中保存每个元素右边的最大值，right[i]，表示数组中第i个元素的右边最大值。
         for(int i=0;i<arr.length;i++)
         {
             leftLargest=Math.max(leftLargest,arr[i]);
